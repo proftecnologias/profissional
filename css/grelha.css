@@ -14,7 +14,7 @@
 
 .cabecalho {
     grid-area: titulo;
-    background: grey;
+    background: yellowgreen;
     padding:10px;
     text-align: center;
 }
@@ -22,6 +22,9 @@
     grid-area: main;
     background: red;
     padding:5px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:10px;
 }
 .secundario {
     grid-area: aside;
