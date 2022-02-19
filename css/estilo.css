@@ -48,7 +48,7 @@ img {
 }
 .button {
     display:grid;
-    align-items:end;
+    align-self:end;
     padding:10px;
     background-color: cadetblue;
     color:white;
