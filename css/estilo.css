@@ -47,7 +47,8 @@ img {
     text-align: center;
 }
 .button {
-    display:block;
+    display:grid;
+    align-items:end;
     padding:10px;
     background-color: cadetblue;
     color:white;
@@ -62,5 +63,6 @@ img {
 }
 .article {
     display:grid;
+    align-items:start;
 }
 
